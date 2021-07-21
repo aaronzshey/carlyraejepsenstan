@@ -32,6 +32,7 @@
 					transition: 1.5s;
 					animation: mymove 1.5s 1 forwards;
 					font-family: sans-serif;
+					color: white;
 				}
 				
 				
