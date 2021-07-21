@@ -30,7 +30,7 @@
 					position: absolute;
 					z-index: 10;
 					transition: 1.5s;
-					animation: mymove 1.5s 1 forwards
+					animation: mymove 1.5s 1 forwards;
 					font-family: sans-serif;
 				}
 				
