@@ -1,4 +1,8 @@
-<img src="bar.svg" width="800" height="400" alt="Click to see the source">
+
+
+
+
+<img src="bar.svg" width="800" height="400" alt="Click to see the source"> 50%
 
 
 
