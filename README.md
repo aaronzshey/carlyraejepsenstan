@@ -1,4 +1,6 @@
-### Hi there 👋
+<img src="bar.svg" width="800" height="400" alt="Click to see the source">
+
+
 
 <!--
 **CarlyRaeJepsenStan/carlyraejepsenstan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
