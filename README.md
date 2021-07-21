@@ -1,8 +1,9 @@
 
 
+My Languages:
 
-
-<img src="bar.svg" > 50%
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="bar.svg" alt="progress bar"> 50%
 
 
 
