@@ -2,7 +2,7 @@
 
 
 
-<img src="bar.svg" width="800" height="400" alt="Click to see the source"> 50%
+<img src="bar.svg" width="500" height="40" alt="Click to see the source"> 50%
 
 
 
