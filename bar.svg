@@ -31,10 +31,9 @@
 					z-index: 10;
 					transition: 1.5s;
 					animation: mymove 1.5s 1 forwards
-				}
-				body {
 					font-family: sans-serif;
 				}
+				
 				
 			</style>
 
