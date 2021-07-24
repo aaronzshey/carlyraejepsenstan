@@ -1,0 +1,45 @@
+<svg fill="none" viewBox="0 0 500 20" width="500" height="20" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				@keyframes mymove {
+					from {
+						width: 50px;
+					}
+
+					to {
+						width: 250px;
+					}
+				}
+
+
+				div.one {
+					height: 20px;
+					width: 500px;
+					background: gray;
+					border-radius: 20px;
+					position: absolute;
+					z-index: -1;
+				}
+
+				div.two {
+					height: 20px;
+					width: 50px;
+					background: lightgreen;
+					border-radius: 20px;
+					position: absolute;
+					z-index: 10;
+					transition: 1.5s;
+					animation: mymove 1.5s 1 forwards;
+					font-family: sans-serif;
+				}
+				
+				
+			</style>
+
+			<div class="one"></div>
+			<div class="two"><div align="center">80%</div></div> 
+		
+		</div>
+	</foreignObject>
+</svg>
