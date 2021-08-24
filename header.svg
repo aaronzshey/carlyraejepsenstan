@@ -10,7 +10,7 @@
 
 .z-text {
 	transform: rotateY(-15deg);
-	transition: transform 1s;
+    transform: rotateX(15deg) rotateY(-30deg);
 }
 
 .z-layer:not(:first-child) {
@@ -34,8 +34,6 @@ var ztxt = new Ztextify(".hero-text", {
 	layers: 10,
 	fade: false,
 	direction: "both",
-	event: "pointer",
-	eventRotation: "35deg"
 });
 </script>
 		</div>
