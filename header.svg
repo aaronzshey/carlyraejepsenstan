@@ -1,12 +1,43 @@
 <svg fill="none" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
-	
+	<style>
+    h1 {
+	font-size: 10vw;
+	color: #f44336;
+	margin: 30px;
+}
+
+.z-text {
+	transform: rotateY(-15deg);
+	transition: transform 1s;
+}
+
+.z-layer:not(:first-child) {
+	color: #b73229;
+}
+    </style>
+    
+    
       
-      <h1>
-   <span data-z data-z-layers="3" data-z-depth="0.5em">A</span>
+
+<h1>
+	<span class="hero-text">Hello</span>
+  <span class="hero-text">World</span>
 </h1>
-				  <script src="https://bennettfeely.com/ztext/js/ztext.min.js"></script>
+
+<script src="https://bennettfeely.com/ztext/js/ztext.min.js"></script>
+
+<script>
+var ztxt = new Ztextify(".hero-text", {
+	depth: "15px",
+	layers: 10,
+	fade: false,
+	direction: "both",
+	event: "pointer",
+	eventRotation: "35deg"
+});
+</script>
 		</div>
 	</foreignObject>
 </svg>
